@@ -23,10 +23,8 @@ public:
     bool operator!=(bigNum);
     bigNum operator*(bigNum);
     bigNum divideByTwo(); //Divides a given bigNum by 2 (Prerequisite: bigNum is even)
+    bigNum pow(int a);
     bool isEven();  //Checks if a given bigNum is even
-    bigNum operator/(bigNum);
-    bigNum operator%(bigNum);//Overload Modular operator
-    bigNum operator/=(bigNum); 
 
 private:
 	int num[MAX_DIGITS];
